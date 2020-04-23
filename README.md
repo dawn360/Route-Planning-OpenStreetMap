@@ -1,6 +1,6 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+The starting code for this project comes from [a map rendering example](https://github.com/cpp-io2d/P0267_RefImpl/tree/master/P0267_RefImpl/Samples/maps) in the Github repo for the 2D Graphics Library, IO2D. This project will be extending the code to search for and display a path between two points on the map.
 
 <img src="map.png" width="600" height="450" />
 
@@ -59,3 +59,7 @@ The testing executable is also placed in the `build` directory. From within `bui
 ./test
 ```
 
+## A* Algorithm
+
+This diagram shows the overall class structure for the project.
+<img src="a-star-algo.png" alt="astar" />
